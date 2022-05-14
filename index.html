@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/38b17d94e0.js" crossorigin="anonymous"></script>
+
+    <title>Product Language Page</title>
   </head>
   <body>
     <div class="page-wrapper">
-  <div class="menu">
+ 
     <header id="header">
       
       <nav class="navigation-bar" id="nav-bar">
@@ -21,54 +23,64 @@
         <a class="nav-link" href="#">Apply</a>
     </nav>
     </header>
-  </div>
 
 
   <div class="container">
     <section class="about">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtl4Y0-ubifTSiyVqraW-NETQaVKeKr6dbLg&usqp=CAU" alt="Studying girl image">
-    <h1>Get fluent in german with Language Deutsch</h1>
-<p>About info</p>
+    <img id="study" src="https://miro.medium.com/max/1000/1*0_lexK6paPtwHCJGGAiZtA.jpeg" alt="Flags image"width="70%" >
+    <h1 id="title">Get fluent in german with Language Deutsch</h1>
+<p class="about-p">About Language Deutsch</p>
   </section>
 
-  <section class="courses">
-<div class="grid">
-  <div class="icon">
-<i class="class"></i> 
-</div>
-<div class="level"><h2>A1</h2><p>Beginner Level bv,durlpu</p>
-</div>
-</div>
-<div class="grid">
-  <div class="icon">
-<i class="class"></i> 
-</div>
-<div class="level"><h2>A1</h2><p>Beginner Level bv,durlpu</p>
-</div>
-</div>
-<div class="grid">
-  <div class="icon">
-<i class="class"></i> 
-</div>
-<div class="level"><h2>A1</h2><p>Beginner Level bv,durlpu</p>
-</div>
-</div>
+  <section id="features">
+    <div class="centre">
+    <div class="grid">
+      <div class="icon">       <i class="fa fa-3x fa-fire"></i></div>
+      <div class="desc">
+        <h2>Language diversity</h2>
+        <p>
+          Our language courses are very complex and you can choose which langiage you want to learn 
+        </p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="icon"> <i class="fa fa-3x fa-fire"></i></div>
+      <div class="desc">
+        <h2>From beginner to advanced</h2>
+        <p>
+          We make sure you choose the right course for you and we help you in the selection process. 
+          You can start as a complete beginner or you can choose the intermediate or the advanced level as well.
+        </p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="icon">
+        <i class="fa fa-3x fa-fire"></i>
+      </div>
+      <div class="desc">
+        <h2>Quality Assurance</h2>
+        <p>
+          For every course you take we will make sure you recieve a certification at the end of the course. The certification is free and can be requested any time after the course is finished.
+      </div>
+    </div>
+  </div>
   </section>
 
-<section class="video-youtube">
-  <h2>Check us out on Youtube</h2>
-  <iframe id="video" height="315" src="https://www.youtube.com/c/LearnGermanOriginal" frameborder="0" allowfullscreen></iframe>
+<section class="youtube">
+  <h2>Take a look at our youtube channel</h2>
+  <iframe width="800" height="450" src="https://www.youtube.com/embed/xg60VxyK-9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
 <section class="pricing">
+  <h1>Pricing Lists</h1>
 
       <div class="flex-container">
         <div class="card">
-            <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
-            <h1>A1</h1>
+         
+            <h2>Beginner</h2>
             <p class="price">400$</p>
             <p>Some text about what is offered..</p>
-            <ul>
+            <ul class="package">
               <li>Video Lessons</li>
             <li>Audio podcast</li>
           <li> Weekly Challenges </li>
@@ -77,22 +89,24 @@
           </div>
           <div class="card">
        
-            <h1>A1</h1>
-            <p class="price">400$</p>
-            <p>Some text about what is offered..</p>
-            <ul>
-              <li>Video Lessons</li>
-            <li>Audio podcast</li>
-          <li> Weekly Challenges </li>
+            <h2>Intermediate</h2>
+           
+            <p class="price">600$</p>
+            <p>This package includes access to:</p>
+            <ul class="package">
+              <li> 20 Video Lessons</li>
+            <li> 10 Audio podcast</li>
+          <li> 15 Weekly Challenges </li>
             </ul>
             <p><button class="btn">Select</button></p>
           </div>
+        
           <div class="card">
-            <img src="jeans3.jpg"  style="width:100%">
-            <h1>A1</h1>
-            <p class="price">400$</p>
+           
+            <h2>Advanced</h2>
+            <p class="price">800$</p>
             <p>Some text about what is offered..</p>
-            <ul>
+            <ul class="package">
               <li>Video Lessons</li>
             <li>Audio podcast</li>
           <li> Weekly Challenges </li>

@@ -1,42 +1,93 @@
 
-
+/*Navbar and logo styling*/
 .navigation-bar  {
-
   width: 100%;  /* i'm assuming full width */
-  height: 80px; /* change it to desired width */
-  background-color: rgb(240, 179, 247); /* change to desired color */
+  height: 100px; /* change it to desired width */
+  background-color: rgb(235, 220, 237); /* change to desired color */
+
 }
 .logo {
 
   display: inline-block;
   vertical-align: top;
-  width: 50px;
-  height: 50px;
-  margin-right: 20px;
-  margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+  width: 90px;
+  height: 90px;
+  margin-top: 5px;    /* if you want it vertically middle of the navbar. */
 }
 .navigation-bar > a {
+  font-size: 25px;
 color: #000;
  float: right;
   vertical-align: top;
   margin-right: 100px;
+  margin-top: 10px;
   height: 80px;        /* if you want it to take the full height of the bar */
   line-height: 80px;    /* if you want it vertically middle of the navbar */
   text-decoration: none;
 }
 
 
+/*About section styling*/
 
-#header-img {
-  width: 100%;
-  height: 100%;
-  max-width: 80px;
+
+#title{
+  font-size:70px;
+}
+.about-p{
+  font-size: 40px;
+}
+.about{
+  text-align: center;
+  padding-top: 30px;
+ 
+};
+
+
+#title{
+  font-size:700px;
+}
+
+
+/*Courses section styling*/
+
+.grid {
   display: flex;
-  margin-left: 20px;
+}
+#features {
+  margin-top: 30px;
+}
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: pink;
+  font-size: 30px;
+}
+
+
+/*Youtube section styling*/
+.youtube{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 100px;
 }
 
 
 
+
+
+
+/*Pricing section styling*/
+h1{
+  text-align: center;
+  font-size: px;
+  margin-bottom: 100px;
+
+}
 .flex-container{
     display: flex;
 }
@@ -49,7 +100,7 @@ color: #000;
   }
   
   .price {
-    color: grey;
+    color:black;
     font-size: 22px;
   }
   
@@ -67,4 +118,8 @@ color: #000;
   
   .card button:hover {
     opacity: 0.7;
+  }
+
+  .package{
+    text-align: center;
   }
