@@ -15,12 +15,12 @@
     <header id="header">
       
       <nav class="navigation-bar" id="nav-bar">
-        <img id="img-header"class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLEmIBhZ1QmV-mTXuJJ33gEMTuZkv9nYkdh3TZrQWF9YfcVn-HjJzbOeKIumOhcBEe5KE&usqp=CAU">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Services</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link" href="#">Apply</a>
+        <img id="header-img"class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLEmIBhZ1QmV-mTXuJJ33gEMTuZkv9nYkdh3TZrQWF9YfcVn-HjJzbOeKIumOhcBEe5KE&usqp=CAU">
+        <a class="nav-link" href="#header">Home</a>
+        <a class="nav-link" href="#features">Services</a>
+        <a class="nav-link" href="#video">About</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+        <a class="nav-link" href="#form">Apply</a>
     </nav>
     </header>
 
@@ -38,7 +38,7 @@
       <div class="icon">       <i class="fa fa-3x fa-fire"></i></div>
       <div class="desc">
         <h2>Language diversity</h2>
-        <p>
+        <p class="description">
           Our language courses are very complex and you can choose which langiage you want to learn 
         </p>
       </div>
@@ -47,7 +47,7 @@
       <div class="icon"> <i class="fa fa-3x fa-fire"></i></div>
       <div class="desc">
         <h2>From beginner to advanced</h2>
-        <p>
+        <p class="description">
           We make sure you choose the right course for you and we help you in the selection process. 
           You can start as a complete beginner or you can choose the intermediate or the advanced level as well.
         </p>
@@ -59,7 +59,7 @@
       </div>
       <div class="desc">
         <h2>Quality Assurance</h2>
-        <p>
+        <p class="description">
           For every course you take we will make sure you recieve a certification at the end of the course. The certification is free and can be requested any time after the course is finished.
       </div>
     </div>
@@ -68,48 +68,50 @@
 
 <section class="youtube">
   <h2>Take a look at our youtube channel</h2>
-  <iframe width="800" height="450" src="https://www.youtube.com/embed/xg60VxyK-9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe  id= "video" width="800" height="450" src="https://www.youtube.com/embed/xg60VxyK-9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
-<section class="pricing">
+<section id="pricing">
   <h1>Pricing Lists</h1>
 
       <div class="flex-container">
         <div class="card">
          
-            <h2>Beginner</h2>
-            <p class="price">400$</p>
-            <p>Some text about what is offered..</p>
-            <ul class="package">
-              <li>Video Lessons</li>
-            <li>Audio podcast</li>
-          <li> Weekly Challenges </li>
-            </ul>
-            <p><button class="btn">Select</button></p>
+          <h2>Beginner</h2>
+           
+          <p class="price">400$</p>
+       
+          <ul >
+            <li> 20 Video Lessons</li>
+          <li> 10 Audio podcast</li>
+        <li> 15 Weekly Challenges </li>
+          </ul>
+          <p><button class="btn">Select</button></p>
           </div>
           <div class="card">
        
             <h2>Intermediate</h2>
            
             <p class="price">600$</p>
-            <p>This package includes access to:</p>
-            <ul class="package">
-              <li> 20 Video Lessons</li>
-            <li> 10 Audio podcast</li>
-          <li> 15 Weekly Challenges </li>
+           
+            <ul >
+              <li> 25 Video Lessons</li>
+            <li> 15 Audio podcast</li>
+          <li> 18 Weekly Challenges </li>
             </ul>
             <p><button class="btn">Select</button></p>
           </div>
         
           <div class="card">
            
-            <h2>Advanced</h2>
-            <p class="price">800$</p>
-            <p>Some text about what is offered..</p>
-            <ul class="package">
-              <li>Video Lessons</li>
-            <li>Audio podcast</li>
-          <li> Weekly Challenges </li>
+            <h2>Advance</h2>
+           
+            <p class="price">900$</p>
+           
+            <ul >
+              <li> 30 Video Lessons</li>
+            <li> 25 Audio podcast</li>
+          <li> 25 Weekly Challenges </li>
             </ul>
             <p><button class="btn">Select</button></p>
           </div>
@@ -119,11 +121,11 @@
     </section>
 
     <section class="apply">
-      <h2>Apply now</h2>
-      <form id="form"action="">
+      <h2 class="apply-now">Apply now</h2>
+      <form id="form"action="https://www.freecodecamp.com/email-submit">
         <label for="">Email</label>
-                <input id="email" type="email" placeholder="Add your email here" required>
-                <label for=""><a href="https://www.freecodecamp.com/email-submit"> Submit</a></label>
+                <input id="email" name="email "type="email" placeholder="Add your email here" required>
+                <label for=""></label>
                 <input id="submit" type="submit"> 
               </form>
     </section>
@@ -137,7 +139,7 @@
     <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
   <a class="footer-link" href="https://twitter.com/">Twitter</a>
   <a class="footer-link" href="https://nostalgic-bohr-d86916.netlify.app/about.html">Website</a>
-  <p class="footer-copyright ">© Andreea Miclaus.</p>
+  <p class="footer-copyright ">© Andreea Miclaus</p>
   </footer>
 
   </body>
