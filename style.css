@@ -1,3 +1,7 @@
+body {
+display: flex;
+}
+
 
 /*Navbar and logo styling*/
 .navigation-bar  {
@@ -6,6 +10,7 @@
   background-color: rgb(235, 220, 237); /* change to desired color */
 
 }
+
 .logo {
   float: right;
   /*display: inline-block;*/
@@ -25,11 +30,7 @@ color: #000;
   line-height: 80px;    /* if you want it vertically middle of the navbar */
   text-decoration: none;
 }
-@media (max-width: 650px) {
-  .navigation-bar > ul {
-    flex-direction: column;
-  }
-}
+
 
 
 /*About section styling*/
@@ -76,6 +77,22 @@ color: #000;
   font-size: 20px;
   text-align:start;
 }
+
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0;
+  }
+}
+
 @media (max-width: 550px) {
   #features .icon {
     display: none;
